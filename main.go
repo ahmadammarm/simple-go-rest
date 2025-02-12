@@ -104,6 +104,9 @@ func main() {
     router.GET("/mahasiswa", getMahasiswa)
     router.POST("/mahasiswa", postMahasiswa)
     router.GET("/mahasiswa/:nim", getMahasiswaByNIM)
+    router.PUT("/mahasiswa/:nim", editMahasiswaByNIM)
+    router.DELETE("/mahasiswa/:nim", deleteMahasiswaByNIM)
+
 
 
     router.Run(":8080")

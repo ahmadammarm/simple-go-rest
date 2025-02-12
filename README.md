@@ -1,0 +1,45 @@
+# Simple Stateless Go REST API
+
+This is a Go Gin project that includes a stateless REST API structure
+
+## Prequisites
+
+- Go 1.21 or later
+
+
+### Mahasiswa API Routes
+
+- `GET /mahasiswa/` - Get all the data from mahasiswa.
+- `POST /mahasiswa` - Create a new data for mahasiswa.
+- `GET /mahasiswa/:nim` - Get each mahasiswa's data by NIM.
+- `PUT /mahasiswa/:nim` - Edit each mahasiswa'data by NIM.
+- `DELETE /mahasiswa/:nim` - Delete a mahasiswa by NIM.
+
+## Getting Started
+1. Clone the repository:
+
+```sh
+git clone https://github.com/ahmadammarm/simple-go-rest.git
+```
+
+2. Navigate to the project directory:
+
+```sh
+cd simple-gp-rest
+```
+
+3. Install the project dependencies:
+
+```sh
+go mod download
+```
+
+4. Run the project:
+
+```sh
+go run main.go
+```
+
+
+
+The project will be available at `http://localhost:8080`.

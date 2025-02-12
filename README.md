@@ -1,5 +1,7 @@
 # Simple Stateless Go REST API
 
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+
 This is a Go project that includes a stateless REST API structure used the Gin web framework.
 
 ## Prequisites

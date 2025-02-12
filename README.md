@@ -1,6 +1,6 @@
 # Simple Stateless Go REST API
 
-This is a Go project that includes a stateless REST API structure used the Gin web framework
+This is a Go project that includes a stateless REST API structure used the Gin web framework.
 
 ## Prequisites
 

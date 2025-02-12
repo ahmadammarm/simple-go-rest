@@ -2,7 +2,7 @@
 
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
-This is a REST API project fully JSON without database integration using the Gin web framework.
+This is a REST API project without database integration using the Gin web framework.
 
 ## Prequisites
 

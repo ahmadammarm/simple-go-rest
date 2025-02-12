@@ -25,7 +25,7 @@ git clone https://github.com/ahmadammarm/simple-go-rest.git
 2. Navigate to the project directory:
 
 ```sh
-cd simple-gp-rest
+cd simple-go-rest
 ```
 
 3. Install the project dependencies:

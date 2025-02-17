@@ -15,7 +15,7 @@ type Mahasiswa struct {
     Fakultas string `json:"fakultas"`
 }
 
-// Menginisialisasi data awal mahasiswa dalam bentuk array dari tipe data Mahasiswa
+// Menginisialisasi data awal mahasiswa dalam bentuk slice dari tipe data Mahasiswa
 var mahasiswa = []Mahasiswa{
     { NIM: "220535601234", Nama: "Budi", Prodi: "Teknik Informatika", Fakultas: "Teknik" },
     { NIM: "221085802134", Nama: "Andi", Prodi: "Sistem Informasi", Fakultas: "Ilmu Komputer" },
